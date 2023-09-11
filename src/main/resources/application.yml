@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://host.docker.internal:5432/ads?user=postgres&password=password
+#        username: postgres
+    #    password:
+    pool-size: 30
